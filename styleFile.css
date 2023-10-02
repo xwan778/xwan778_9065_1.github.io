@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* body*/
+body {
+    font-family: Arial;
+    margin: 10;
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #DBBDDD;
+    color: white;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+	color: #79547B;
+}
+
+.navbar {
+    overflow: hidden;
+	text-align: center;
+    background-color: #333;
+}
+
+.navbar a {
+	display: inline-block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: underline;
+}
+
+.navbar a:hover{
+	color: #7533A9;
+	background-color: #F9D3CA;
+}
+
+
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+
+    padding: 10px;
+	font-size: 24px;
+}
+.side img{
+	float:right;
+	padding: 18px;
+}
+
+.side p{
+	font-size: 18px;
+}
+
+.side h2{
+	background-color: #DCD7E0;
+	color: #79547B;
+}
+
+.benefit {   
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    padding: 10px;
+	font-size: 24px;
+	
+}
+
+.benefit h2{
+	background-color: #DCD7E0;
+	color: #79547B;
+}
+
+.benefit h3{
+	font-size: 22px;
+}
+
+.benefit p{
+	font-size: 18px;
+}
+
+.gallary{
+	-ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    padding: 10px;
+	font-size: 24px;
+}
+
+.gallary h2{
+	background-color: #DCD7E0;
+	color: #79547B;
+}
+
+.benefit h3{
+	font-size: 22px;
+}
+
+.gallary p{
+	font-size: 18px;
+}
+
+.p1{
+	border:13px solid #79547B;
+}
+
+.desc {
+	padding:10px 2px 5px 2px;
+	font-size: 18px;
+
+}
+
+.catPic{
+	column-count:3;
+}
+
+.catPic img {
+	float:center;
+	margin: 10px;
+	border:3px solid #bebebe;
+}
+
+
+.catPic a:hover img{
+	border:3px solid #000;
+}
+
+.footer{
+	-ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    padding: 10px;
+	font-size: 24px;
+	background-color: #333;
+}
+
+.footer h2{
+	background-color: #DCD7E0;
+	color: #79547B;
+}
+
+.footer p{
+	font-size: 16px;
+	color: white;
+}
+
+
+
+</body>
+</html>
