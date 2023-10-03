@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-<head>
+<head></head>
 <title>title</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +11,6 @@
     box-sizing: border-box;
 }
 
-/* body*/
 body {
     font-family: Arial;
     margin: 10;
@@ -67,6 +66,10 @@ body {
 	font-size: 18px;
 }
 
+.side HR{
+	border:3px double #333;
+}
+
 .side h2{
 	background-color: #DCD7E0;
 	color: #79547B;
@@ -80,6 +83,11 @@ body {
 	
 }
 
+.benefit HR{
+	border:3px double #333;
+}
+
+
 .benefit h2{
 	background-color: #DCD7E0;
 	color: #79547B;
@@ -92,6 +100,7 @@ body {
 .benefit p{
 	font-size: 18px;
 }
+
 
 .gallary{
 	-ms-flex: 30%; /* IE10 */
@@ -156,7 +165,9 @@ body {
 	color: white;
 }
 
-
+.footer HR{
+	border:3px single white;
+}
 
 </body>
 </html>
